@@ -134,10 +134,31 @@ $(document).ready(function($) {
 //----------------------------------------------------------------------------------------------------------------------
 
 $(window).load(function(){
+    
+    
+    
+    
+    
+                $(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 3,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3],
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 5000
+ 
+  });
+ 
+});
 
 //  Owl Carousel
 
-    if ($('.owl-carousel').length > 0) {
+    if ($('#slider').length > 0) {
         setCarouselWidth();
         $("#slider").owlCarousel({
             autoplay: true,

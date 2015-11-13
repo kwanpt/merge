@@ -85,7 +85,7 @@ a:hover, a:active, a:focus {
 h1 {
   color: #fff;
   display: inline-block;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   margin: 0;
   padding: 10px 15px;
@@ -1984,4 +1984,13 @@ footer .footer-bottom .contact .social a:hover {
   .wrapper {
     display: block;
   }
+}
+
+
+#photos { background: #31313f}
+
+
+#owl-demo{ margin: 30px 0;}
+#owl-demo .item{
+  margin: 3px;
 }
