@@ -7,7 +7,7 @@ $(document).ready(function($) {
 
     equalHeight('.equal-height');
 
-    $('footer .copyright').css( 'top', $('footer .contact').height() / 2  );
+    $('footer .copyright').css( 'top', $('footer .contact').height() / 4  );
 
 //  Animations
 
@@ -141,20 +141,7 @@ $(window).load(function(){
     
                 $(document).ready(function() {
  
-  $("#owl-demo").owlCarousel({
- 
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
-      items : 3,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3],
-      dots: true,
-      autoplay: true,
-      autoplayTimeout: 5000
- 
-  });
- 
-});
+
 
 //  Owl Carousel
 
@@ -163,7 +150,7 @@ $(window).load(function(){
         $("#slider").owlCarousel({
             autoplay: true,
             autoplayTimeout: 5000,
-            mouseDrag: false,
+            mouseDrag: true,
             items: 1,
 			responsiveClass: true,
             responsiveBaseElement: ".slide",
@@ -216,6 +203,13 @@ function setCarouselWidth(){
     $('#slider').width( $(window).width() );
 }
 
+    
+      $("#owl-demo").owlCarousel({
+ 
+     
+  });
+ 
+});
 // Submit form with validation
 
 function submitForm(form){
