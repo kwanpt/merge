@@ -706,7 +706,7 @@ p {
   transition: 0.4s;
   background-color: #31313f;
   display: inline-block;
-  font-size: 18px;
+  font-size: 38px;
   font-weight: bold;
   padding: 15px;
 }
@@ -944,7 +944,7 @@ p {
   background-color: #e5475e;
 }
 .btn.btn-primary:hover, select.btn-primary:hover {
-  background-color: #ff281d;
+  background-color: #31313f;
 }
 .btn i, select i {
   margin-left: 10px;
