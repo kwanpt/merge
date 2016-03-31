@@ -1433,6 +1433,11 @@ footer .footer-bottom .copyright {
   font-weight: bold;
   position: relative;
 }
+
+footer .footer-bottom .copyright img{
+  margin-left: -15px;
+}
+
 footer .footer-bottom .contact.float {
   position: relative;
 }
@@ -1998,4 +2003,18 @@ footer .footer-bottom .contact .social a:hover {
 #owl-demo{ margin: 30px 0;}
 #owl-demo .item{
   margin: 3px;
+}
+
+.footer-top h2{
+  padding-top: 20px;
+}
+
+.footer-top .find-way{
+  position: absolute;
+  z-index: 333;
+  overflow: hidden;
+}
+
+.marker-style{
+  top:261px !important;
 }

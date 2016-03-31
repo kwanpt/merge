@@ -7,7 +7,7 @@ $(document).ready(function($) {
 
     equalHeight('.equal-height');
 
-    $('footer .copyright').css( 'top', $('footer .contact').height() / 4  );
+    // $('footer .copyright').css( 'top', $('footer .contact').height() / 4  );
 
 //  Animations
 
@@ -134,13 +134,13 @@ $(document).ready(function($) {
 //----------------------------------------------------------------------------------------------------------------------
 
 $(window).load(function(){
-    
-    
-    
-    
-    
+
+
+
+
+
                 $(document).ready(function() {
- 
+
 
 
 //  Owl Carousel
@@ -203,12 +203,12 @@ function setCarouselWidth(){
     $('#slider').width( $(window).width() );
 }
 
-    
+
       $("#owl-demo").owlCarousel({
- 
-     
+
+
   });
- 
+
 });
 // Submit form with validation
 
